@@ -31,7 +31,7 @@ jobs:
       -
         name: Build and push
         uses: docker/build-push-action@v4
+        working-directory: /apps/hello
         with:
-          context: /apps/hello
           push: true
           tags: ghcr.io/bevy-city/kubernetes-play-party/hello:latest
