@@ -34,4 +34,4 @@ jobs:
         with:
           context: ./apps/probes
           push: true
-          tags: ghcr.io/bevy-city/kubernetes-play-party/probes:latest
+          tags: ghcr.io/${{ github.repository }}/probes:latest
