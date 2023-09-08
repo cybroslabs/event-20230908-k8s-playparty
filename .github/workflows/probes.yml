@@ -2,6 +2,9 @@ name: Build probes app
 
 on:
   push:
+    paths:
+      - .github/workflows/*
+      - apps/probes/*
     branches:
       - main
 

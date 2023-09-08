@@ -2,6 +2,9 @@ name: Build hello app
 
 on:
   push:
+    paths:
+      - .github/workflows/*
+      - apps/hello/*
     branches:
       - main
       
